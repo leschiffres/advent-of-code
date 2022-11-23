@@ -75,7 +75,10 @@ int main() {
     struct ConfidenceInterval ci = get_confidence_interval(0.2, 100);
     printf("Confidence Interval using structs (%f, %f)", ci.left, ci.right);
 
-    // parsing input file
+    // arrays
+    
+    // initialisation with -1
+    int arr[200] = { [ 0 ... 199 ] = -1 };
 
    return 0;
 }
